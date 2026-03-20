@@ -1,0 +1,24 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "Dataset",
+  "name": "Incorporaci\u00f3n de Tecnolog\u00eda en Latinoam\u00e9rica (2000-2025): Dataset Longitudinal",
+  "identifier": "10.5281/zenodo.18984812",
+  "url": "https://doi.org/10.5281/zenodo.18984812",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Juan Mois\u00e9s",
+      "familyName": "de la Serna Tuya",
+      "@id": "https://orcid.org/0000-0002-8401-8018"
+    }
+  ],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "keywords": [
+    "adopci\u00f3n tecnol\u00f3gica",
+    "transformaci\u00f3n digital",
+    "Latinoam\u00e9rica",
+    "penetraci\u00f3n internet",
+    "inteligencia artificial",
+    "dataset longitudinal"
+  ]
+}
