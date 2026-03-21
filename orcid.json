@@ -1,0 +1,16 @@
+{
+  "orcid": "0000-0002-8401-8018",
+  "name": "Juan Moisés de la Serna Tuya",
+  "affiliation": "Universidad Internacional de La Rioja (UNIR)",
+  "email": "juanmoises.delaserna@unir.net",
+  "website": "https://juanmoisesdelaserna.es",
+  "profile": "https://orcid.org/0000-0002-8401-8018",
+  "works": [
+    {
+      "title": "Dataset longitudinal (2000-2025) sobre indicadores de adopción de tecnología digital en 21 países de América Latina e Iberia. Variables: penetración de internet, suscripciones móviles, adopción de smartphones, usuarios de redes sociales, e-commerce, ",
+      "type": "dataset",
+      "url": "https://github.com/juanmoisesd/incorporacion-de-tecnologia-en-latinoamerica-2000-2025-dataset-longitudinal",
+      "year": "2026"
+    }
+  ]
+}
