@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/juanmoisesd/incorporacion-de-tecnologia-en-latinoamerica-2000-2025-dataset-longitudinal/blob/main/schema.json",
+  "title": "Dataset longitudinal (2000-2025) sobre indicadores de adopción de tecnología digital en 21 países de América Latina e Iberia. Variables: penetración de internet, suscripciones móviles, adopción de smartphones, usuarios de redes sociales, e-commerce, ",
+  "description": "JSON Schema for the dataset: Dataset longitudinal (2000-2025) sobre indicadores de adopción de tecnología digital en 21 países de América Latina e Iberia. Variables: penetración de internet, suscripciones móviles, adopción de smartphones, usuarios de redes sociales, e-commerce, ",
+  "type": "object",
+  "version": "1.0.0",
+  "author": {
+    "name": "Juan Moisés de la Serna Tuya",
+    "orcid": "https://orcid.org/0000-0002-8401-8018"
+  },
+  "license": "CC0-1.0",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique row identifier"
+    },
+    "country": {
+      "type": "string",
+      "description": "Country or region name"
+    },
+    "year": {
+      "type": "integer",
+      "description": "Reference year",
+      "minimum": 1990,
+      "maximum": 2030
+    },
+    "value": {
+      "type": "number",
+      "description": "Primary metric value"
+    },
+    "unit": {
+      "type": "string",
+      "description": "Unit of measurement"
+    },
+    "source": {
+      "type": "string",
+      "description": "Original data source"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Additional notes"
+    }
+  },
+  "required": [
+    "id",
+    "country",
+    "year",
+    "value"
+  ],
+  "additionalProperties": true
+}
