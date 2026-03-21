@@ -1,0 +1,19 @@
+# Requirements for Dataset longitudinal (2000-2025) sobre indicadores de adopción de tecnología digital en 21 países de América Latina e Iberia. Variables: penetración de internet, suscripciones móviles, adopción de smartphones, usuarios de redes sociales, e-commerce, 
+# Author: Juan Moisés de la Serna Tuya
+# ORCID: https://orcid.org/0000-0002-8401-8018
+
+# Data analysis
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Data visualization (optional)
+matplotlib>=3.5.0
+
+# JSON/YAML processing
+pyyaml>=6.0
+
+# HTTP requests
+requests>=2.28.0
+
+# Validation
+jsonschema>=4.0.0
